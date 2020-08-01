@@ -1,0 +1,58 @@
+
+*{
+margin:0px;
+padding:0px;
+}
+
+*, *::before, *::after{
+  box-sizing:border-box;
+}
+
+/*
+Another way to reset css for box-sizing can be done using "inherit"
+
+*, *::before, *::after{
+  box-sizing:inherit;
+}
+
+html{
+boz-sizing: border-box;
+}
+*/
+
+
+.main-container{
+  margin: 60px auto;
+}
+
+.nav{
+  background-color: pink;
+  margin: 15px auto;
+  padding:10px;
+
+}
+
+.content{
+  background-color: grey;
+}
+
+
+.about-content{
+  min-height:1200px;
+  background-color: grey;
+}
+
+.portfolio-content, .photography-content{
+min-height:1200px;
+}
+
+.col-gap{
+  padding:35px 10px 10px;
+}
+
+
+@media screen and (min-width: 992px) {
+  .navbar-brand {
+    display:none;
+  }
+}
