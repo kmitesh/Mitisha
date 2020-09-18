@@ -26,20 +26,22 @@ boz-sizing: border-box;
 }
 
 .nav{
-  background-color: pink;
+  /* background-color: pink; */
   margin: 15px auto;
   padding:10px;
 
 }
 
 .content{
+  /*
   background-color: grey;
+  */
 }
 
 
 .about-content{
   min-height:1200px;
-  background-color: grey;
+  background-color: rgb(230, 230, 230);
 }
 
 .portfolio-content, .photography-content{
